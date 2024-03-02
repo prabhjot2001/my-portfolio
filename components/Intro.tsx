@@ -26,7 +26,7 @@ export const Intro = () => {
 
   return (
     // <WavyBackground className="p-10">
-      <section className="">
+      <section className="scroll-mt-24" id="home">
         <div className="flex items-center justify-center flex-col">
           <div className="relative">
             <motion.div
@@ -38,7 +38,7 @@ export const Intro = () => {
               }}
             >
               <Image
-                className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl mt-10 sm:mt-0 "
+                className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl mt-20 sm:mt-0 "
                 src={"./images/prabh_formal.jpg"}
                 width={192}
                 height={192}
@@ -74,7 +74,7 @@ export const Intro = () => {
                 transition={{ delay: 0.3 }}
                 className={TextStyle}
               >
-                Hey! I'm
+                Hey! I am
               </motion.div>
 
               <div className={TextStyle}>
@@ -121,9 +121,9 @@ export const Intro = () => {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold ">Hello, I'm Prabhjot singh.</span> I'm a{" "}
+          <span className="font-bold ">Hello, I am Prabhjot singh.</span> I am a{" "}
           <span className="font-bold">student & a full-stack developer</span>{" "}
-          I've built lot's of <span className="font-bold">projects</span> you
+          I have built lots of <span className="font-bold">projects</span> you
           can explore more below. I enjoy building{" "}
           <span className="italic">sites & apps</span>. I work with latest
           technologies like{" "}

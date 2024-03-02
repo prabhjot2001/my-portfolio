@@ -36,7 +36,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-20 scroll-mt-24" id='contact'>
+    <div className="max-w-[99%] px-10 sm:px-0 sm:max-w-lg mx-auto mt-20 scroll-mt-24" id='contact'>
       <SectionHeading>Contact Me</SectionHeading>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>

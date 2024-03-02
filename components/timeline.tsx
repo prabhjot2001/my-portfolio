@@ -49,7 +49,7 @@ const Timeline: React.FC<TimelineProps> = ({ experiences }) => {
             <div className={`flex items-center justify-center w-32 ${index % 2 === 0 ? 'order-2' : 'order-1'}`}>
               <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
             </div>
-            <div className={`max-w-xl  w-full mx-4 ${index % 2 === 0 ? 'order-1' : 'order-2'}`}>
+            <div className={`max-w-lg  w-full mx-4 ${index % 2 === 0 ? 'order-1' : 'order-2'}`}>
               <div className="bg-white py-16 border border-gray-300 shadow-md rounded-xl p-4">
                 <h3 className="text-lg font-semibold">{experience.startDate} - {experience.endDate}</h3>
                 <p className="text-sm text-gray-700 mt-2">{experience.description}</p>

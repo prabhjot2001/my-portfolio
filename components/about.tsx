@@ -70,12 +70,12 @@ export default function About() {
           }
           className="h-[35rem] border rounded-xl"
         >
-          "Success is no accident. It is{" "}
+          Success is no accident. It is{" "}
           <span className="text-red-500">
             hard work, perseverance, learning, studying, sacrifice, 
           </span> and most of all,
           <span className="text-red-500"> love</span> of what you are doing or
-          learning to do"
+          learning to do
         </MaskContainer>
       </div>
     </div>
