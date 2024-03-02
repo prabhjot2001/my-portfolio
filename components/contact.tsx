@@ -10,7 +10,7 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="container mx-auto py-8">
-      <ContactForm onSubmit={handleSubmit} />
+      <ContactForm/>
     </div>
   );
 };
