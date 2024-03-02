@@ -1,7 +1,15 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  trailingSlash: true,
   output: 'export',
-};
 
-export default nextConfig;
+  trailingSlash: true,
+
+
+  skipTrailingSlashRedirect: true,
+
+  distDir: 'dist',
+}
+
+module.exports = nextConfig
