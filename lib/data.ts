@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ebay1 from "@/public/ebay1.png";
+import ecommerce from "@/public/ecommerce.png";
 import projectMangement1 from "@/public/projectManagement1.png";
 import blogrush1 from "@/public/blogrush1.png";
 import notebook1 from "@/public/notebook1.png";
@@ -71,7 +71,7 @@ export const projectsData = [
     description:
       "I worked on this project for hands-on practice and to polish my skills and knowledge on Database Schema, frontend, and backend tech like prisma.",
     tags: ["Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: ebay1,
+    imageUrl: ecommerce,
   },
   {
     title: "TaskMinder - Project Mangement web app",

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { WavyBackground } from "./ui/wavy-background";
+import img from '../public/prabh_formal.webp'
 // import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export const Intro = () => {
@@ -39,7 +39,7 @@ export const Intro = () => {
             >
               <Image
                 className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl mt-20 sm:mt-0 "
-                src={"/images/prabh_formal.jpg"}
+                src={img}
                 width={192}
                 height={192}
                 quality={95}
@@ -69,7 +69,7 @@ export const Intro = () => {
               }}
             >
               <motion.div
-                initial={{ x: 900, opacity: 0 }}
+                initial={{ x: 300, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
                 className={TextStyle}
@@ -83,7 +83,7 @@ export const Intro = () => {
                   animate={{
                     // transform: "rotate(-5deg)",
                     opacity: 1,
-                    scale: [1, 1, 2, 3, 2, 1, 1],
+                    scale: [1, 1, 2, 2, 1, 1],
                     rotate: [0, 0, -270, 270, 0, 0],
                   }}
                   transition={{ delay: 1 }}
@@ -95,7 +95,7 @@ export const Intro = () => {
               </div>
 
               <motion.div
-                initial={{ x: -900, opacity: 0 }}
+                initial={{ x: -300, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
                 className={TextStyle1}
@@ -104,7 +104,7 @@ export const Intro = () => {
               </motion.div>
 
               <motion.div
-                initial={{ x: -900, opacity: 0 }}
+                initial={{ x: -300, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
                 className={TextStyle}

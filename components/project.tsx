@@ -22,11 +22,11 @@ export default function Project({
 
   return (
     <div className="">
-      <CardContainer className="inter-var w-screen">
-        <CardBody className="bg-white shadow-lg relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.9] border-black/[0.1] w-screen sm:max-w-[45rem] h-auto rounded-xl p-5 border">
+      <CardContainer className="inter-var ">
+        <CardBody className="bg-white sm:w-full shadow-lg relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:border-white/[0.9] border-black/[0.1]  sm:max-w-[35rem] h-auto rounded-xl p-5 border">
           <CardItem
             translateZ="50"
-            className="text-2xl font-bold  text-slate-900 dark:text-white"
+            className="text-2xl text-center font-bold  text-slate-900 dark:text-white"
           >
             {title}
           </CardItem>
