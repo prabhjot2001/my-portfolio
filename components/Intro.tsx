@@ -39,12 +39,12 @@ export const Intro = () => {
             >
               <Image
                 className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl mt-20 sm:mt-0 "
-                src={"./images/prabh_formal.jpg"}
+                src={"/images/prabh_formal.jpg"}
                 width={192}
                 height={192}
                 quality={95}
                 priority={true}
-                alt="prabhjot singh full stack developer"
+                alt=""
               />
             </motion.div>
             <motion.span
